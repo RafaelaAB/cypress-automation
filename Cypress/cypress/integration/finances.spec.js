@@ -1,5 +1,10 @@
 /// <reference types="cypress" />
 
+
+// cy.viewport
+// arquivos de config
+// configs por linha de comando
+
          //- entender o fluxo manualmente
         //- mapear os elementos que vamos interagir
         //- descrever as interações com o cypress 
@@ -44,7 +49,7 @@ context('Dev Finances Agilizei', () => {
 
     //remover entradas e saídas
     it('Remover Entradas e saídas', () => {
-        const entrada = 'Total'
+        const entrada = 'Salário'
         const saida = 'Internet'
 
         cy.get('#transaction .button').click() // id + classe
